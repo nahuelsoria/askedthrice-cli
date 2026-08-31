@@ -1,0 +1,47 @@
+{
+  "name": "askedthrice",
+  "version": "0.1.0",
+  "description": "CLI for askedthrice.com: measure whether AI assistants actually recommend a brand, from live model answers. Free, no account, no API key.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "askedthrice": "bin/askedthrice.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.11"
+  },
+  "keywords": [
+    "ai-visibility",
+    "geo",
+    "generative-engine-optimization",
+    "answer-engine-optimization",
+    "brand-monitoring",
+    "llm",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "cli",
+    "seo"
+  ],
+  "homepage": "https://askedthrice.com/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahuelsoria/askedthrice-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nahuelsoria/askedthrice-cli/issues"
+  },
+  "author": "Nahuel Soria"
+}
